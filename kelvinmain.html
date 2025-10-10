@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="myweb.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>KELVIN | Portfolio</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container flex-between">
+      <h1 class="logo">KELVIN</h1>
+      <nav>
+        <ul class="nav-list flex">
+          <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#about-me"><i class="fas fa-user"></i> About Me</a></li>
+          <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+          <li><a href="#gallery-display"><i class="fas fa-images"></i> Gallery</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="#social"><i class="fas fa-share-alt"></i> Social</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle">
+        <button id="themeBtn" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-bar container">
+    <input type="text" placeholder="Search..." id="searchInput" />
+    <button id="searchBtn"><i class="fas fa-search"></i></button>
+  </div>
+
+  <section id="home" class="container">
+    <div class="hero flex-between">
+      <div>
+        <h2>Welcome to Kelvin's Portfolio</h2>
+        <p class="lead">Showcasing creativity, code, and design. Explore my work, skills, and passions below.</p>
+        <a href="#portfolio" class="btn-primary">View Portfolio</a>
+      </div>
+      <img src="images/me.jpg" alt="Kelvin's Profile" class="hero-img" width="220" />
+    </div>
+    <ol class="sub-nav flex">
+      <li><a href="#games"><i class="fas fa-gamepad"></i> Games</a></li>
+      <li><a href="#names"><i class="fas fa-user-tag"></i> Names</a></li>
+      <li><a href="#items"><i class="fas fa-gift"></i> Items</a></li>
+      <li><a href="#movies"><i class="fas fa-film"></i> Movies</a></li>
+      <li><a href="#songs"><i class="fas fa-music"></i> Songs</a></li>
+      <li><a href="#food"><i class="fas fa-utensils"></i> Food</a></li>
+    </ol>
+  </section>
+
+  <main class="container">
+    <section id="games" class="card games">
+      <h2><i class="fas fa-gamepad"></i> Games</h2>
+      <p>My favorite games include FIFA, Minecraft, and Need for Speed.</p>
+      <ul>
+        <li>FIFA</li>
+        <li>Minecraft</li>
+        <li>Need for Speed</li>
+      </ul>
+      <div class="img-row">
+        <img src="fifa.jpg" alt="FIFA" width="100" />
+        <img src="minecraft.jpg" alt="Minecraft" width="100" />
+        <img src="nfs.jpg" alt="Need for Speed" width="100" />
+      </div>
+    </section>
+
+    <section id="names" class="card names">
+      <h2><i class="fas fa-user-tag"></i> Names</h2>
+      <p>Creative usernames and brand ideas I like to use.</p>
+      <ul>
+        <li>KelvinCodes</li>
+        <li>PixelNinja</li>
+        <li>WebCrafter</li>
+      </ul>
+    </section>
+
+    <section id="items" class="card items">
+      <h2><i class="fas fa-gift"></i> Items</h2>
+      <p>Cool gadgets and tools that make life easier.</p>
+      <ul>
+        <li>Smartphone</li>
+        <li>Laptop</li>
+        <li>Camera</li>
+      </ul>
+    </section>
+
+    <section id="movies" class="card movies">
+      <h2><i class="fas fa-film"></i> Movies</h2>
+      <p>Top picks: Inception, Spider-Man, and Interstellar.</p>
+      <ul>
+        <li>Inception</li>
+        <li>Spider-Man</li>
+        <li>Interstellar</li>
+      </ul>
+    </section>
+
+    <section id="songs" class="card songs">
+      <h2><i class="fas fa-music"></i> Songs</h2>
+      <p>Favorites include “Blinding Lights” and “Shape of You.”</p>
+      <ul>
+        <li>Blinding Lights</li>
+        <li>Shape of You</li>
+      </ul>
+    </section>
+
+    <section id="food" class="card food">
+      <h2><i class="fas fa-utensils"></i> Food</h2>
+      <p>I love pizza, samosas, and Kenyan pilau!</p>
+      <ul>
+        <li>Pizza</li>
+        <li>Samosas</li>
+        <li>Kenyan Pilau</li>
+      </ul>
+    </section>
+  </main>
+
+  <section id="about-me" class="container">
+    <h2><i class="fas fa-user"></i> About Me</h2>
+    <div class="about-flex flex-between">
+      <div>
+        <p>Web developer & designer based in Nairobi, Kenya. Passionate about building beautiful, functional websites and apps.</p>
+        <ul>
+          <li><strong>Name:</strong> Kelvin</li>
+          <li><strong>Location:</strong> Nairobi, Kenya</li>
+          <li><strong>Profession:</strong> Web Developer & Designer</li>
+          <li><strong>Interests:</strong> Coding, Design, Photography</li>
+        </ul>
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul class="skills-list flex">
+            <li><i class="fab fa-html5"></i> HTML & CSS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fab fa-react"></i> React</li>
+            <li><i class="fas fa-pencil-ruler"></i> UI/UX Design</li>
+            <li><i class="fab fa-git-alt"></i> Git</li>
+          </ul>
+        </div>
+      </div>
+      <img src="images/kelvin.jpg" alt="Kelvin's Profile Picture" width="200" class="profile-img" />
+    </div>
+    <div class="timeline">
+      <h3>Journey</h3>
+      <ul>
+        <li><span>2018</span> - Started coding</li>
+        <li><span>2020</span> - Built first portfolio site</li>
+        <li><span>2022</span> - Joined freelance projects</li>
+        <li><span>2024</span> - Launching new web app</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio" class="container">
+    <h2><i class="fas fa-briefcase"></i> Portfolio</h2>
+    <p>This section showcases my work and projects.</p>
+    <div class="portfolio-grid">
+      <div class="project card">
+        <img src="project1.jpg" alt="Project 1 Preview" width="200" />
+        <h3>Project 1</h3>
+        <p>Responsive website for local business. Built with React and Node.js.</p>
+        <a href="https://github.com/kelvin/project1" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+      <div class="project card">
+        <img src="project2.jpg" alt="Project 2 Preview" width="200" />
+        <h3>Project 2</h3>
+        <p>Personal blog platform. Features Markdown support and user authentication.</p>
+        <a href="https://github.com/kelvin/project2" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+      <div class="project card">
+        <img src="project3.jpg" alt="Project 3 Preview" width="200" />
+        <h3>Project 3</h3>
+        <p>Mobile app for event management. Built with Flutter.</p>
+        <a href="https://github.com/Giten128/project3" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery-display" class="container">
+    <h2><i class="fas fa-images"></i> Gallery Display</h2>
+    <p>This section contains a gallery of images.</p>
+    <div class="gallery-grid">
+      <img src="images/me.jpg" alt="Kelvin" width="150" />
+      <img src="image2.jpg" alt="Kelvin and Friends" width="150" />
+      <img src="images/car.jpg" alt="Dream Car" width="150" />
+      <img src="images/nature.jpg" alt="Nature" width="150" />
+      <img src="images/cas.jpg" alt="Coding Setup" width="150" />
+      <img src="images/travel.jpg" alt="Travel" width="150" />
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2><i class="fas fa-envelope"></i> Contact</h2>
+    <p>You can reach me via the following:</p>
+    <ul>
+      <li><strong>Phone:</strong> +1234567890</li>
+      <li><strong>Email:</strong> 
+        <a href="mailto:kelvin@example.com">kelvin@example.com</a>
+      </li>
+      <li>
+        <form id="contactForm">
+          <label for="message">Send a message:</label><br>
+          <textarea id="message" name="message" rows="3" cols="30" placeholder="Type your message..."></textarea><br>
+          <button type="submit" class="btn-primary"><i class="fas fa-paper-plane"></i> Send</button>
+        </form>
+      </li>
+    </ul>
+    <div id="formStatus"></div>
+  </section>
+
+  <section id="social" class="container">
+    <h2><i class="fas fa-share-alt"></i> Social</h2>
+    <p>Find me on social media:</p>
+    <ul class="social-list flex">
+      <li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+      <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+      <li><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li><a href="https://github.com/Giten128" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+    </ul>
+  </section>
+
+  <footer class="container">
+    <div class="footer-flex flex-between">
+      <p>&copy; 2024 Kelvin. All rights reserved.</p>
+      <div>
+        <a href="#home">Back to Top <i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="myweb.js"></script>
+  <script>
+    // Theme toggle
+    document.getElementById('themeBtn').onclick = function() {
+      document.body.classList.toggle('dark-mode');
+    };
+
+    // Contact form feedback
+    document.getElementById('contactForm').onsubmit = function(e) {
+      e.preventDefault();
+      document.getElementById('formStatus').textContent = "Thank you for your message!";
+      this.reset();
+    };
+  </script>
+</body>
+</html>
